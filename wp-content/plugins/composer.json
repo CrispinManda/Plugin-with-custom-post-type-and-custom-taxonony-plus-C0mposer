@@ -1,0 +1,22 @@
+{
+    "name": "crisp/plugins",
+    "description": "owesome plugin for everyone",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Crisp\\Plugins\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "crispin manda",
+            "email": "crispinmanda06@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}
